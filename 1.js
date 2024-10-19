@@ -1,4 +1,4 @@
-git let getInfo = Symbol('getInfo');
+let getInfo = Symbol('getInfo');
 let object = {
     name: 'Panda',
     kindom: 'Animals',
