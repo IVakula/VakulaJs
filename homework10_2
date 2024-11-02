@@ -1,0 +1,4 @@
+let string = "End, Wonderful, Happiness, Joyful, happiness, wonderful, Time, children, Task, Homework, Apple";
+let re = /\b([b-zB-Z]{6,})\b/g;
+let newString = string.match(re);
+console.log(newString);
